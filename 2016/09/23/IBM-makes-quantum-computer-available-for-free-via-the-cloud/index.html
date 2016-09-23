@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Doom Blog"/>
+        <meta property="og:title" content="IBM makes quantum computer available for free via the cloud"/>
     
 
     <!--Open Graph Description-->
@@ -33,7 +33,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
     
 
     <!--Page Cover-->
@@ -44,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>Quantum Physics Computers - Doom Blog</title>
+    <title>IBM makes quantum computer available for free via the cloud - Doom Blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -119,9 +119,7 @@
 <div class="container">
 
     <!-- Main Content -->
-    
-
-<div class="row">
+    <div class="row">
     <div class="col-sm-12">
 
         <!--Title and Logo-->
@@ -129,23 +127,64 @@
     <div class="logo">
         <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
         
-            <h1 id="main-title" class="title">#Quantum Physics Computers</h1>
-        
     </div>
 </header>
 
-        <section class="main archive-container">
+        <section class="main">
             
-                <div class="archive-post">
-    <a href="/2016/09/17/Record-breaking-logic-gate-another-important-milestone-on-road-to-quantum-computers/">
-        <span class="archive-date">
-            Sep 2016
-        </span>
-        Record-breaking logic gate 'another important milestone' on road to quantum computers
-    </a>
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2016/09/23/IBM-makes-quantum-computer-available-for-free-via-the-cloud/">
+                IBM makes quantum computer available for free via the cloud
+            </a>
+        </h1>
+        <div class="post-info">
+            <span class="date">2016-09-23</span>
+            <a href="#disqus_thread" class="comments">Kommentare</a>
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <p>IBM announced it would allow researchers, programmers, and the general public to access and experiment with its quantum computer. While IBM’s current system contains just five qubits, it’s a fundamentally different type of computer than the D-Wave systems we’ve covered before.<br><a id="more"></a><br>D-Wave’s quantum annealer is best understood as a device that’s potentially faster than any classical computer at solving a specific set of problems. Measuring and defining the scenarios in which D-Wave outperforms classical systems is something Google and NASA have been doing for several years, but the sparsely connected topology of D-Wave systems limits its ability to solve real-world problems.</p>
+<p>IBM’s five-qubit system isn’t very useful for problem solving either, but it’s a universal quantum computer, by which IBM means its architecture could be used for solving a much larger class of problems, provided the number of qubits can be scaled upwards. What makes this particular computer so interesting, however, is that IBM has found a way to implement error-checking in hardware — and error-checking is absolutely essential in a quantum computer.<br>Ars Technica has an excellent write-up on IBM’s error-checking implementation, but the gist is this: The probability of a “wrong” answer in quantum computing is much higher than in classical computing, which means robust error checking must be baked into such systems from the get-go. The fifth qubit in IBM’s five-bit system is used to dynamically catch and correct errors while the system is actively performing computation. Qubit values aren’t read and then corrected if incorrect — the fifth qubit performs this operation on the fly by first predicting when an error will occur and then activating the fifth qubit to prevent that error from happening.<br>IBM’s landing site for its quantum computing project explains some of the details and differences between the various types of quantum computers, often in ways D-Wave probably disagrees with. For example, IBM states, “The consensus of the scientific community is that a quantum annealer has no known advantages over conventional computing.” That’s the sort of ivory tower throw down that leads to blood-drenched chalkboards and dueling solutions to NP-hard problems.</p>
+<p>Scale-up<br>Users who want to test the quantum computer can register to do so here, but IBM will pick and choose who gets to use the hardware based on what you want to do with it and your overall chops at programming quantum systems. While five qubits isn’t particularly useful, inviting users from around the globe to test-drive the system is a smart way to find out how robust the error correction is in a variety of test cases, and to possibly detect shortfalls or failures in current methodology.</p>
+<p>IBM hopes to be able to field devices with 50-100 qubits in the next few years, which would be much more capable of solving practical problems. How much of a market there might be for quantum computers is still under considerable debate — their extremely high costs of operation (they rely on liquid nitrogen for cooling and operate at temperatures near absolute zero) means the chances of a quantum computer in your basement are basically zero — not until we solve the room-temperature superconductor problem, at any rate. There are obvious uses for quantum computing in cryptography, but scientists need time to experiment with the systems as they evolve in order to determine what they can do.</p>
+
+    </div>
+
+    
+
+    
+        <div class="post-tags">
+            <i class="fa fa-tags" aria-hidden="true"></i>
+            <a href="/tags/quantum-computing-computing-physics/">#quantum-computing computing physics</a>
+        </div>
+    
+
+    <!-- Comments -->
+    
+    <div class="comments">
+        
+<div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-            
+
+
+
+    </div>
+    
+
+</div>
         </section>
+
     </div>
 </div>
 
@@ -320,7 +359,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
